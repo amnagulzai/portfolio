@@ -21,3 +21,4 @@ if (prefersReducedMotion || !("IntersectionObserver" in window)) {
 
     reveals.forEach((el) => observer.observe(el));
 }
+

@@ -244,6 +244,7 @@ body.dark .theme-toggle .icon-moon {
 body.dark .theme-toggle .icon-sun {
     display: inline-block;
 }
+
 .eyebrow {
     font-family: var(--font-mono);
     font-size: 0.8rem;
@@ -272,6 +273,7 @@ body.dark .theme-toggle .icon-sun {
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
 }
+
 .project-card {
     display: flex;
     flex-direction: column;
@@ -295,6 +297,7 @@ body.dark .theme-toggle .icon-sun {
     color: var(--ink-soft);
     flex-grow: 1;
 }
+
 .tags {
     list-style: none;
     display: flex;
@@ -321,6 +324,7 @@ body.dark .theme-toggle .icon-sun {
 .project-link:hover {
     color: var(--ink);
 }
+
 .contact {
     max-width: 1180px;
     margin: 0 auto;
@@ -377,7 +381,7 @@ body.dark .theme-toggle .icon-sun {
     color: var(--forest);
 }
 
-.detail dd a + a {
+.detail dd a+a {
     margin-left: 1rem;
 }
 
@@ -415,6 +419,7 @@ body.dark .theme-toggle .icon-sun {
 .footer a:hover {
     color: var(--forest);
 }
+
 .education {
     max-width: 1180px;
     margin: 0 auto;
@@ -449,6 +454,7 @@ body.dark .theme-toggle .icon-sun {
 .edu-body p {
     color: var(--ink-soft);
 }
+
 .reveal {
     opacity: 0;
     transform: translateY(20px);
@@ -487,12 +493,14 @@ body.dark .theme-toggle .icon-sun {
     .project-grid {
         grid-template-columns: 1fr;
     }
-        .edu-item {
+
+    .edu-item {
         grid-template-columns: 1fr;
         gap: 0.4rem;
     }
 
 }
+
 @media (prefers-reduced-motion: reduce) {
     .reveal {
         opacity: 1;
@@ -500,5 +508,3 @@ body.dark .theme-toggle .icon-sun {
         transition: none;
     }
 }
-
-
